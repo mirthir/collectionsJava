@@ -41,8 +41,10 @@ public class CarrinhoDeCompras {
             throw new RuntimeException("O carrinho está vazio!");
         }
     }
+
+
     public void exibirItems() {
-        if (!itemList.isEmpty()) {
+        if (!itemList.isEmpty()) {    //se itemList não estiver vazio roda o fluxo
             System.out.println(this.itemList);
         } else {
             System.out.println("O carrinho está vazio!");
@@ -51,7 +53,7 @@ public class CarrinhoDeCompras {
     public String toString() {
         return "CarrinhoDeCrompras{" + "itens" + itemList + "}";
     }
-/
+
     public static void main(String[] args) {
         CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
 
