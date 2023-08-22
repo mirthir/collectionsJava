@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="carrinho de compras">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/PesquisaLista/SomaNumeros.java" afterDir="false" />
+    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="Somar numeros">
+      <change afterPath="$PROJECT_DIR$/src/list/Ordenacao/OrdenacaoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/Ordenacao/Pessoas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/PesquisaLista/CatalogoLivros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/PesquisaLista/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,7 @@
       <recent name="list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SomaNumeros">
+  <component name="RunManager" selected="Application.CatalogoLivros">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.OperacoesBasicas.CarrinhoDeCompras" />
       <module name="collectionsJava" />
@@ -85,12 +87,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.PesquisaLista.CatalogoLivros" />
+      <module name="collectionsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="list.PesquisaLista.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.OperacoesBasicas.ListaTarefa" />
       <module name="collectionsJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="list.OperacoesBasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdenacaoPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.Ordenacao.OrdenacaoPessoa" />
+      <module name="collectionsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="list.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,6 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalogoLivros" />
+        <item itemvalue="Application.OrdenacaoPessoa" />
         <item itemvalue="Application.SomaNumeros" />
         <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Application.ListaTarefa" />
@@ -129,7 +159,7 @@
       <updated>1692269394707</updated>
       <workItem from="1692269395779" duration="5979000" />
       <workItem from="1692363433100" duration="3525000" />
-      <workItem from="1692702355347" duration="5240000" />
+      <workItem from="1692702355347" duration="11755000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -179,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692704344088</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Somar numeros">
+      <option name="closed" value="true" />
+      <created>1692708908826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692708908826</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +238,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="lista de tarefas" />
     <MESSAGE value="carrinho de compras" />
-    <option name="LAST_COMMIT_MESSAGE" value="carrinho de compras" />
+    <MESSAGE value="Somar numeros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Somar numeros" />
   </component>
 </project>
