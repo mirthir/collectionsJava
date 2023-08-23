@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="ordenacao java">
-      <change afterPath="$PROJECT_DIR$/src/set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/OperacoesBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/OperacoesBasicas/Convidado.java" afterDir="false" />
+    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="set interface operacoes basicas">
+      <change afterPath="$PROJECT_DIR$/src/set/Pesquisa/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set/Pesquisa/Contato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,20 @@
       <recent name="list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConjuntoPalavrasUnicas">
+  <component name="RunManager" selected="Application.AgendaContatos">
+    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.Pesquisa.AgendaContatos" />
+      <module name="collectionsJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="set.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.PesquisaLista.CatalogoLivros" />
       <module name="collectionsJava" />
@@ -125,26 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenacaoPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.Ordenacao.OrdenacaoPessoa" />
-      <module name="collectionsJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="list.Ordenacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AgendaContatos" />
         <item itemvalue="Application.ConjuntoPalavrasUnicas" />
         <item itemvalue="Application.ConjuntoConvidados" />
         <item itemvalue="Application.OrdenacaoNumeros" />
         <item itemvalue="Application.CatalogoLivros" />
-        <item itemvalue="Application.OrdenacaoPessoa" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +158,7 @@
       <workItem from="1692269395779" duration="5979000" />
       <workItem from="1692363433100" duration="3525000" />
       <workItem from="1692702355347" duration="12479000" />
-      <workItem from="1692787455643" duration="7256000" />
+      <workItem from="1692787455643" duration="10383000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -241,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692795624059</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="set interface operacoes basicas">
+      <option name="closed" value="true" />
+      <created>1692799351508</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692799351508</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +272,7 @@
     <MESSAGE value="Somar numeros" />
     <MESSAGE value="varios exemplos java" />
     <MESSAGE value="ordenacao java" />
-    <option name="LAST_COMMIT_MESSAGE" value="ordenacao java" />
+    <MESSAGE value="set interface operacoes basicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="set interface operacoes basicas" />
   </component>
 </project>
