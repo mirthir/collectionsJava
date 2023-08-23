@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="varios exemplos java">
-      <change afterPath="$PROJECT_DIR$/src/list/Ordenacao/OrdenacaoNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="ordenacao java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +154,7 @@
       <workItem from="1692269395779" duration="5979000" />
       <workItem from="1692363433100" duration="3525000" />
       <workItem from="1692702355347" duration="12479000" />
-      <workItem from="1692787455643" duration="3436000" />
+      <workItem from="1692787455643" duration="4090000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -224,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692730055221</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ordenacao java">
+      <option name="closed" value="true" />
+      <created>1692792307386</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692792307386</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +251,7 @@
     <MESSAGE value="carrinho de compras" />
     <MESSAGE value="Somar numeros" />
     <MESSAGE value="varios exemplos java" />
-    <option name="LAST_COMMIT_MESSAGE" value="varios exemplos java" />
+    <MESSAGE value="ordenacao java" />
+    <option name="LAST_COMMIT_MESSAGE" value="ordenacao java" />
   </component>
 </project>
