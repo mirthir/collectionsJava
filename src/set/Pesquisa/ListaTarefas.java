@@ -111,13 +111,15 @@ public class ListaTarefas {
 
         System.out.println("Existem " + listaTarefas.contarTarefa() + " na lista de tarefas.");
 
-        System.out.println(listaTarefas.obterTarefasConcluidas());
-
-        System.out.println(listaTarefas.obterTarefasPendentes());
 
         listaTarefas.marcarTarefaConcluida("Tarefa 2");
         listaTarefas.marcarTarefaConcluida("Tarefa 1");
         listaTarefas.exibirTarefas();
+
+        System.out.println(listaTarefas.obterTarefasConcluidas());
+
+        System.out.println(listaTarefas.obterTarefasPendentes());
+
         listaTarefas.limparListaTarefas();
         listaTarefas.exibirTarefas();
     }
