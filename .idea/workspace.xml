@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="set interface lista tarefa corrigido">
-      <change afterPath="$PROJECT_DIR$/src/map/OperacoesBasicas/Dicionario.java" afterDir="false" />
+    <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="map interface operacoesbasicas">
+      <change afterPath="$PROJECT_DIR$/src/map/Pesquisa/ContagemPalavras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/Pesquisa/EstoqueProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/Pesquisa/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +65,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Estudos/PenseJava/collectionsJava/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,13 +79,13 @@
       <command value="compareTO" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dicionario">
-    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.Pesquisa.AgendaContatos" />
+  <component name="RunManager" selected="Application.ContagemPalavras">
+    <configuration name="ContagemPalavras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.Pesquisa.ContagemPalavras" />
       <module name="collectionsJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.Pesquisa.*" />
+          <option name="PATTERN" value="map.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GerenciadorAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.Ordenacao.GerenciadorAluno" />
+    <configuration name="EstoqueProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.Pesquisa.EstoqueProdutos" />
       <module name="collectionsJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.Ordenacao.*" />
+          <option name="PATTERN" value="map.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.Pesquisa.ListaTarefas" />
+    <configuration name="GerenciadorAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.Ordenacao.GerenciadorAluno" />
       <module name="collectionsJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.Pesquisa.*" />
+          <option name="PATTERN" value="set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContagemPalavras" />
+        <item itemvalue="Application.EstoqueProdutos" />
         <item itemvalue="Application.Dicionario" />
         <item itemvalue="Application.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.GerenciadorAluno" />
-        <item itemvalue="Application.ListaTarefas" />
-        <item itemvalue="Application.AgendaContatos" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +167,8 @@
       <workItem from="1692363433100" duration="3525000" />
       <workItem from="1692702355347" duration="12479000" />
       <workItem from="1692787455643" duration="15496000" />
-      <workItem from="1692877524456" duration="6828000" />
+      <workItem from="1692877524456" duration="7552000" />
+      <workItem from="1692888622917" duration="3648000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -302,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692887437985</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="map interface operacoesbasicas">
+      <option name="closed" value="true" />
+      <created>1692887770536</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692887770536</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +342,7 @@
     <MESSAGE value="set interface pesquisa" />
     <MESSAGE value="set interface lista tarefa" />
     <MESSAGE value="set interface lista tarefa corrigido" />
-    <option name="LAST_COMMIT_MESSAGE" value="set interface lista tarefa corrigido" />
+    <MESSAGE value="map interface operacoesbasicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="map interface operacoesbasicas" />
   </component>
 </project>
