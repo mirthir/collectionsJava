@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b944f344-da61-49f2-8c61-5b5e352c6a5d" name="Changes" comment="set interface lista tarefa corrigido">
-      <change afterPath="$PROJECT_DIR$/src/map/OperacoesBasicas/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/Ordenacao/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/Ordenacao/GerenciadorAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/OperacoesBasicas/Dicionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       <command value="compareTO" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.map.OperacoesBasicas.AgendaContatos">
+  <component name="RunManager" selected="Application.Dicionario">
     <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="set.Pesquisa.AgendaContatos" />
       <module name="collectionsJava" />
@@ -92,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.Ordenacao.CadastroProdutos" />
+    <configuration name="Dicionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.OperacoesBasicas.Dicionario" />
       <module name="collectionsJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.Ordenacao.*" />
+          <option name="PATTERN" value="map.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dicionario" />
         <item itemvalue="Application.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.GerenciadorAluno" />
         <item itemvalue="Application.ListaTarefas" />
         <item itemvalue="Application.AgendaContatos" />
-        <item itemvalue="Application.CadastroProdutos" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +164,7 @@
       <workItem from="1692363433100" duration="3525000" />
       <workItem from="1692702355347" duration="12479000" />
       <workItem from="1692787455643" duration="15496000" />
-      <workItem from="1692877524456" duration="6394000" />
+      <workItem from="1692877524456" duration="6828000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -296,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692879073302</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="set interface lista tarefa corrigido">
+      <option name="closed" value="true" />
+      <created>1692887437985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692887437985</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
